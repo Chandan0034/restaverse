@@ -50,11 +50,22 @@ cd google-integration-portal
 pip install -r requirements.txt
 ```
 ## Running the Application
+
+Docker Hub link
+```bash
+https://hub.docker.com/r/chandu5634/flaskapi
+```
 To start the Flask backend server, run:
 ```bash
 python app.py
 ```
 ### Running the Frontend
+
+Docker Hub Link
+
+```bash
+https://hub.docker.com/r/chandu5634/restaversefronted
+```
 
 To start the frontend (assuming a React setup), follow these steps:
 
