@@ -41,7 +41,7 @@ Follow these steps to set up the project on your local machine:
 
 ```bash
 # Clone the repository
-git clone <https://github.com/your-username/google-integration-portal.git>
+git clone https://github.com/your-username/google-integration-portal.git
 
 # Navigate to the project directory
 cd Server
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 Docker Hub link
 ```bash
-[Click here to visit the Docker Hub repository](https://hub.docker.com/r/chandu5634/flaskapi)
+echo "[Click here to visit the Docker Hub repository](https://hub.docker.com/r/chandu5634/flaskapi)" >> README.md
 ```
 To start the Flask backend server, run:
 ```bash
