@@ -49,8 +49,8 @@ cd google-integration-portal
 # Install the required Python dependencies
 pip install -r requirements.txt
 ```
-###Running the Application
-#To start the Flask backend server, run:
+## Running the Application
+To start the Flask backend server, run:
 ```bash
 python app.py
 ```
