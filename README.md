@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 Docker Hub link
 ```bash
-<https://hub.docker.com/r/chandu5634/flaskapi>
+[Click here to visit the Docker Hub repository](https://hub.docker.com/r/chandu5634/flaskapi)
 ```
 To start the Flask backend server, run:
 ```bash
@@ -64,7 +64,8 @@ python app.py
 Docker Hub Link
 
 ```bash
-<https://hub.docker.com/r/chandu5634/restaversefronted>
+[Click here to visit the Docker Hub repository](https://hub.docker.com/r/chandu5634/restaversefronted)
+
 ```
 
 To start the frontend (assuming a React setup), follow these steps:
