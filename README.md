@@ -61,7 +61,7 @@ To start the frontend (assuming a React setup), follow these steps:
 1. **Navigate to the frontend directory (if separate):**
 
     ```bash
-    cd frontend
+    cd restaverse
     ```
 
 2. **Install the required Node.js dependencies:**
