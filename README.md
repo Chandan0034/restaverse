@@ -41,10 +41,10 @@ Follow these steps to set up the project on your local machine:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/google-integration-portal.git
+git clone <https://github.com/your-username/google-integration-portal.git>
 
 # Navigate to the project directory
-cd google-integration-portal
+cd Server
 
 # Install the required Python dependencies
 pip install -r requirements.txt
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 Docker Hub link
 ```bash
-[https://hub.docker.com/r/chandu5634/flaskapi](https://hub.docker.com/r/chandu5634/flaskapi)
+<https://hub.docker.com/r/chandu5634/flaskapi>
 ```
 To start the Flask backend server, run:
 ```bash
@@ -64,7 +64,7 @@ python app.py
 Docker Hub Link
 
 ```bash
-[https://hub.docker.com/r/chandu5634/restaversefronted](https://hub.docker.com/r/chandu5634/restaversefronted)
+<https://hub.docker.com/r/chandu5634/restaversefronted>
 ```
 
 To start the frontend (assuming a React setup), follow these steps:
@@ -95,8 +95,8 @@ Here are the available API endpoints:
 
 | Method | Endpoint                          | Description                                     |
 |--------|-----------------------------------|-------------------------------------------------|
-| GET    | `/api/reviews`                     | Fetches reviews (requires authentication)       |
-| POST   | `/api/reviews/<review_id>/reply`   | Adds a reply to a review (requires authentication) |
+| GET    | `/reviews`                     | Fetches reviews (requires authentication)       |
+| POST   | `/reviews/<int:review_id>/respond`   | Adds a reply to a review (requires authentication) |
 
 ## Frontend Integration 
 
